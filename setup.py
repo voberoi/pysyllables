@@ -18,7 +18,7 @@ URL = 'https://github.com/voberoi/pysyllables'
 EMAIL = 'voberoi@gmail.com'
 AUTHOR = 'Vikram Oberoi'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.0.0'
+VERSION = None
 
 here = os.path.abspath(os.path.dirname(__file__))
 
