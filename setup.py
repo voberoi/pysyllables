@@ -12,32 +12,16 @@ from setuptools import find_packages, setup, Command
 
 # Package meta-data.
 NAME = 'pysyllables'
-DESCRIPTION = 'An in-memory syllable count map for North American English derived from the CMU Pronouncing Dictionary.'
+DESCRIPTION = 'An in-memory syllable count dictionary for North American English derived from the CMU Pronouncing Dictionary.'
 URL = 'https://github.com/voberoi/pysyllables'
 EMAIL = 'voberoi@gmail.com'
 AUTHOR = 'Vikram Oberoi'
 REQUIRES_PYTHON = '>=3.6.0'
 VERSION = '1.0.0'
 
-# What packages are required for this module to be executed?
-REQUIRED = [
-    # 'requests', 'maya', 'records',
-]
-
-# What packages are optional?
-EXTRAS = {
-    # 'fancy feature': ['django'],
-}
-
-# The rest you shouldn't have to touch too much :)
-# ------------------------------------------------
-# Except, perhaps the License and Trove Classifiers!
-# If you do change the License, remember to change the Trove Classifier for that!
-
 here = os.path.abspath(os.path.dirname(__file__))
 
 # Import the README and use it as the long-description.
-# Note: this will only work if 'README.md' is present in your MANIFEST.in file!
 try:
     with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
         long_description = '\n' + f.read()
