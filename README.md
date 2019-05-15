@@ -24,11 +24,11 @@ word to a syllable count in [pysyllables/syllable-counts.txt](pysyllables/syllab
 ## How does one generate [pysyllables/syllable-counts.txt](pysyllables/syllable-counts.txt)?
 
 [scripts/download_syllable_counts.sh](scripts/download_syllable_counts.sh) downloads
-the CMU Pronouncing Dictionary, computes each word's syllable count, and emits.
+the CMU Pronouncing Dictionary, computes each word's syllable count, and emits
 [pysyllables/syllable-counts.txt](pysyllables/syllable-counts.txt).
 
 Should there be a new version of the CMU Pronouncing Dictionary, update the source in
-scripts/download_syllable_counts.sh](scripts/download_syllable_counts.sh).
+[scripts/download_syllable_counts.sh](scripts/download_syllable_counts.sh).
 
 ## Contributing
 
