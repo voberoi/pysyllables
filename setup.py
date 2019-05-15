@@ -6,6 +6,7 @@
 
 import io
 import os
+import sys
 from shutil import rmtree
 
 from setuptools import find_packages, setup, Command
@@ -20,6 +21,9 @@ REQUIRES_PYTHON = '>=3.6.0'
 VERSION = '1.0.0'
 
 here = os.path.abspath(os.path.dirname(__file__))
+
+REQUIRED = []
+EXTRAS = {}
 
 # Import the README and use it as the long-description.
 try:

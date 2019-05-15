@@ -1,0 +1,2 @@
+include README.md LICENSE Pipfile Pipfile.lock 
+recursive-include scripts *.py
