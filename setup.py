@@ -22,7 +22,7 @@ VERSION = None
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-REQUIRED = []
+REQUIRED = ["num2words"]
 EXTRAS = {}
 
 # Import the README and use it as the long-description.
